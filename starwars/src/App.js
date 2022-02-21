@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <div className="h-[100px]"></div>
       <Article />
       <Article2 />
     </div>
