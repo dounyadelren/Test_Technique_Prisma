@@ -17,7 +17,7 @@ module.exports = {
       lg: ['32px'],
     },
     extend: {
-      // backgroundImage: { 'starwars': "url('/src/Assets/Assets/header.png')", }
+      backgroundImage: { 'starwars': "url('/src/Assets/Assets/header-bg-2x.png')", }
     },
   },
   plugins: [],
