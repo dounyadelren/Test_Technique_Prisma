@@ -5,7 +5,7 @@ import "../Assets/css/article.css"
 const Article = () => {
     return (
         <div className="m-5 mt-5 mx-auto h-[1174px] w-[755px] flex">
-            <div className="text-left text-md leading-5">
+            <div className="text-left text-md">
                 <h1 className="leading-5"><strong>Star Wars, The Force Awakens</strong></h1>
                 <br />
                 <p>Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».</p>
