@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Assets/css/burger.css"
-import Bg from "../Assets/Assets/header-bg-2x.png"
 import '../Assets/css/nav.css'
 import Logo from "../Assets/Assets/logo.png"
 
