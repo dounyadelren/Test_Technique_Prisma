@@ -17,7 +17,7 @@ const Nav = () => {
                     <li>JABA LE HUTT</li>
                 </ul>
             </nav>
-            <div className="bg-starwars relative h-[500px] ">
+            <div className="bg-starwars relative h-[500px] sm:bg-contain">
                 <img src={Logo} alt="bg" className="img" />
             </div>
             {/* <img src={Bg} alt='logo' /> */}
