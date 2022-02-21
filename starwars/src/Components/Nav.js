@@ -6,7 +6,7 @@ import '../Assets/css/nav.css'
 const Nav = () => {
     return (
         <>
-            <div className="">
+            
                 <nav className="nav sm:hidden">
                     <ul className="">
                         <li>LE CÔTÉ LUMINEUX</li>
@@ -24,7 +24,7 @@ const Nav = () => {
                         <span className="burger-bar"></span>
                     </button>
                 </nav> */}
-            </div>
+            
         </>
     )
 }
