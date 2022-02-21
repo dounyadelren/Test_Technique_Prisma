@@ -1,0 +1,9 @@
+.backImg {
+    background-color: rgb(24,24,24);
+    background-image: url('../Assets/darthvader_2x.jpg');
+    height: 272px;
+    background-position: center;
+    color: #9B9B9B;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
