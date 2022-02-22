@@ -183,6 +183,31 @@ img {
     .nav {
         display: none;
     }
+    #burger {
+        display:block;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        position: absolute;
+        padding: 1rem;
+    }
+    #close {
+        padding: 1rem;
+    }
+    #nav_burger{
+        background-image: url('Assets/header-bg-2x.png');
+        background-size: contain;
+        display:none;
+        height:100vh;
+    }
+    #nav_burger_list li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color:white;
+        align-items:center;
+        padding:1.5rem;
+    }
     #bloc {
         display:none;
     }
