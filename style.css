@@ -36,7 +36,7 @@ li {
 
 .backgroundStarWars{
     position: relative;
-    background-image: url("./Assets/header-bg-2x.png");
+    background-image: url("./Assets/header-bg.png");
     height: 500px;
 }
 
@@ -51,11 +51,6 @@ li {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin:1.25rem;
-    position: relative; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .contenu-text{
     text-align: left;
@@ -69,8 +64,7 @@ li {
 #pub {
     width: 300px;
     height: 600px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 2rem;
 }
 img {
     max-width: unset;
@@ -164,7 +158,8 @@ img {
     text-decoration: underline;
     text-align: center;
     line-height: 2rem;
-    font-size: 14px;
+    font-size: 12px;
+    margin-left: 2rem;
 }
 .socials {
     display: flex;
@@ -173,6 +168,7 @@ img {
 .logo{
     display: flex;
     align-items: center;
+    margin-left:0.8rem;
 }
 
 /* NAV */
@@ -227,14 +223,11 @@ img {
     .list{
         height:249px;
     }
-    /* #bloc3 {
-        display: none;
-    } */
     .footer{
-        position: absolute;
+        position: relative;
         width:100%;
         bottom: 0;
-        margin: 0 auto;
+        margin-top: 600px;
         height:522px;
 
     }
