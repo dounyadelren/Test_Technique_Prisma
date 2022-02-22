@@ -7,6 +7,15 @@
     font-family: "Open Sans";
     /* overflow-x: hidden; */
 }
+#burger {
+    display:none;
+}
+#nav_burger {
+    display:none;
+}
+#nav_burger_list li{
+    display: none;
+}
 
 /* NAV */
 .img {
@@ -190,14 +199,16 @@ img {
         z-index: 2;
         position: absolute;
         padding: 1rem;
+        cursor: pointer;
     }
     #close {
         padding: 1rem;
+        cursor: pointer;
     }
     #nav_burger{
         background-image: url('Assets/header-bg-2x.png');
         background-size: contain;
-        display:none;
+        /* display:none; */
         height:100vh;
     }
     #nav_burger_list li{
