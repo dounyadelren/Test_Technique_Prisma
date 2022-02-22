@@ -126,7 +126,9 @@ img {
     line-height: 1.75rem;
     margin-top: 1.5rem;
 }
-/* FOOTER  */
+#bloc3 {
+    height:60px;
+}
 .footer {
     height: 522px;
     display: flex;
@@ -189,10 +191,15 @@ img {
     }
     .article1{
         width: 375px;
+        position: unset;
+        transform: none;
+        margin:unset;
+        margin-top: 30px;
     }
     .contenu-text{
         text-align:center;
         width: 310px;
+        height: 480px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -220,8 +227,16 @@ img {
     .list{
         height:249px;
     }
-    #bloc3 {
+    /* #bloc3 {
         display: none;
+    } */
+    .footer{
+        position: absolute;
+        width:100%;
+        bottom: 0;
+        margin: 0 auto;
+        height:522px;
+
     }
     #text-footer {
         display: none;
