@@ -164,14 +164,17 @@ img {
 }
 #legals {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .legals-list {
     text-decoration: underline;
     text-align: center;
     line-height: 2rem;
     font-size: 12px;
-    margin-left: 2rem;
+    margin-left: 10rem;
+}
+.legal-use-terms{
+    display: flex;
 }
 .socials {
     display: flex;
@@ -182,6 +185,7 @@ img {
     align-items: center;
     margin-left:0.8rem;
 }
+
 
 /* NAV */
 @media screen and (max-width: 375px){
@@ -279,6 +283,9 @@ img {
     #legals{
         flex-direction: column;
         padding-bottom:44px;
+    }
+    .legals-list{
+        margin-left: unset;
     }
     .legal-use-terms{
         display: flex;
