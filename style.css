@@ -7,7 +7,6 @@ body {
     padding: 0;
     list-style: none;
     font-family: "Open Sans";
-    /* overflow-x: hidden; */
 }
 
 #burger {
@@ -220,7 +219,6 @@ img {
     #nav_burger{
         background-image: url('Assets/header-bg-2x.png');
         background-size: contain;
-        /* display:none; */
         height:100vh;
     }
     #nav_burger_list li{
@@ -276,9 +274,7 @@ img {
         position: relative;
         width:100%;
         bottom: 0;
-        /* margin-top: 600px; */
         height:522px;
-
     }
     #bloc3 {
         height:700px;
